@@ -87,9 +87,9 @@ const Portfolio = () => {
             <div className="w-64 h-64 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full p-1">
               <div className="w-full h-full bg-slate-900 rounded-full p-2">
                 <img
-                  src="/api/placeholder/256/256"
-                  alt="Tobi Ajibola"
-                  className="w-full h-full object-cover rounded-full"
+                src="/profile.jpg"
+                alt="Tobi Ajibola"
+                className="w-full h-full object-cover rounded-full"
                 />
               </div>
             </div>
@@ -190,7 +190,7 @@ const Portfolio = () => {
               <div className="p-6 flex flex-col h-full">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Breast Cancer Detection</h3>
-                  <p className="text-gray-300 mb-4">ML model achieving 96.07% accuracy in classifying breast cancer, featuring advanced preprocessing and hyperparameter optimization</p>
+                  <p className="text-gray-300 mb-4">ML model achieving 97% accuracy in classifying breast cancer, featuring advanced preprocessing and hyperparameter optimization</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">XGBoost</span>
                     <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">Scikit-learn</span>
@@ -215,7 +215,7 @@ const Portfolio = () => {
               <div className="p-6 flex flex-col h-full">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Email Spam Classification</h3>
-                  <p className="text-gray-300 mb-4">High-precision email spam classifier using XGBoost and TF-IDF vectorization, achieving 96.07% accuracy with optimized performance</p>
+                  <p className="text-gray-300 mb-4">High-precision email spam classifier using XGBoost and TF-IDF vectorization, achieving 96% accuracy with optimized performance</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">XGBoost</span>
                     <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">NLP</span>
@@ -242,9 +242,9 @@ const Portfolio = () => {
                   <h3 className="text-xl font-semibold text-white mb-2">Canada Retail Sales Analysis</h3>
                   <p className="text-gray-300 mb-4">Comprehensive analysis of retail sales data using SQL and Tableau, extracting meaningful insights through data transformation</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">SQL</span>
-                    <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">Tableau</span>
+                   <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">Tableau</span>
                     <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">Data Analysis</span>
+                    <span className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm">SQL</span>
                   </div>
                 </div>
                 <div className="mt-auto pt-4">
