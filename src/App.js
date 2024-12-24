@@ -115,6 +115,8 @@ const Portfolio = () => {
                     <li>SQL & BigQuery</li>
                     <li>HTML & CSS</li>
                     <li>Tableau</li>
+                    <li>Docker</li>
+                    <li>Google Cloud Run</li>
                   </ul>
                 </div>
                 <div className="bg-slate-700/50 p-4 rounded-lg border border-teal-500/20">
